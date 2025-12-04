@@ -20,10 +20,10 @@
                 <div class="space-y-3">
                     <h4 class="font-semibold text-white uppercase tracking-wider mb-3">Quick Links</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><NuxtLink to="/about-us" class="text-gray-400 hover:text-red-500 transition duration-200">About Us</NuxtLink></li>
-                        <li><NuxtLink to="/services" class="text-gray-400 hover:text-red-500 transition duration-200">Our Services</NuxtLink></li>
-                        <li><NuxtLink to="/pricing" class="text-gray-400 hover:text-red-500 transition duration-200">Pricing</NuxtLink></li>
-                        <li><NuxtLink to="/faq" class="text-gray-400 hover:text-red-500 transition duration-200">FAQ</NuxtLink></li>
+                        <li><NuxtLink to="#about" class="text-gray-400 hover:text-red-500 transition duration-200">About Us</NuxtLink></li>
+                        <li><NuxtLink to="#services" class="text-gray-400 hover:text-red-500 transition duration-200">Our Services</NuxtLink></li>
+                        <li><NuxtLink to="#pricing" class="text-gray-400 hover:text-red-500 transition duration-200">Pricing</NuxtLink></li>
+                        <li><NuxtLink to="#faq" class="text-gray-400 hover:text-red-500 transition duration-200">FAQ</NuxtLink></li>
                     </ul>
                 </div>
 

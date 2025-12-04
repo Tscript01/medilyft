@@ -5,4 +5,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui', '@nuxt/eslint', 'motion-v/nuxt'],
     css: ['~/assets/css/main.css'],
+    app: {
+    head: {
+      style: [
+        {
+          textContent: 'html { scroll-behavior: smooth; }'
+        }
+      ]
+    }
+  }
 })

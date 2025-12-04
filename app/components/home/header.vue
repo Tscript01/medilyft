@@ -107,14 +107,16 @@ onUnmounted(() => {
                                 </svg>
                             </button>
                         </section>
+                        <div class="flex flex-col justify-between h-full">
+
 
                         <ul class="flex flex-col space-y-6 px-7">
                             <li class="uppercase hover:text-theme-secondary transition duration-200">
-                                <NuxtLink @click="toggleMobileNav()" to="#features">About</NuxtLink>
+                                <NuxtLink @click="toggleMobileNav()" to="#about">About</NuxtLink>
                             </li>
                             <hr>
                             <li class="uppercase hover:text-theme-secondary transition duration-200">
-                                <NuxtLink @click="toggleMobileNav()" to="#features">Services</NuxtLink>
+                                <NuxtLink @click="toggleMobileNav()" to="#services">Services</NuxtLink>
                             </li>
                             <hr>
                             <li class="uppercase hover:text-theme-secondary transition duration-200">
@@ -122,17 +124,19 @@ onUnmounted(() => {
                             </li>
                             <hr>
                             <li class="uppercase hover:text-theme-secondary transition duration-200">
-                                <NuxtLink @click="toggleMobileNav()" to="#subscribe">Pricing</NuxtLink>
+                                <NuxtLink @click="toggleMobileNav()" to="#pricing">Pricing</NuxtLink>
                             </li>
                             <hr>
                             <li class="uppercase hover:text-theme-secondary transition duration-200">
-                                <NuxtLink @click="toggleMobileNav()" to="#subscribe">Contact </NuxtLink>
+                                <NuxtLink @click="toggleMobileNav()" to="#contact">Contact </NuxtLink>
                             </li>
                         </ul>
                         <button
-                            class="bg-[#0A9BA3] px-6 py-3 text-white font-semibold rounded-lg shadow-md hover:bg-[#0a9ba3ca] cursor-pointer transition duration-200">
+                            class="bg-secondary px-6 py-3 text-white font-semibold rounded-lg shadow-md hover:bg-[#0a9ba3ca] cursor-pointer transition duration-200">
                             Book Now
                         </button>
+                        </div>
+
                     </div>
                 </transition>
 
