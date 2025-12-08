@@ -20,7 +20,7 @@
                         <div
                             class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-pri transition-colors duration-300">
                             <span
-                                class="text-primary group-hover:text-white transition-colors duration-300 [&>svg]:w-8 [&>svg]:h-8"
+                                class="text-primary group-hover:text-red transition-colors duration-300 [&>svg]:w-8 [&>svg]:h-8"
                                 v-html="service.icon"></span>
                         </div>
 
