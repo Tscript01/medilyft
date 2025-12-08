@@ -7,8 +7,8 @@
                 class="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 :style="{backgroundImage: `url('https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?q=80&w=2072')`}"
             >
-                <div class="absolute inset-0 bg-[#0A2540] opacity-70"></div>
-                <div class="absolute inset-0 bg-linear-to-r from-[#0A2540] via-[#0A2540]/60 to-transparent"></div>
+                <div class="absolute inset-0 bg-primary opacity-70"></div>
+                <div class="absolute inset-0 bg-linear-to-r from-primary via-primary/60 to-transparent"></div>
             </div>
 <section class="  relative container ">
 
@@ -21,9 +21,10 @@
                                 <span class="text-base font-bold tracking-widest text-white">MEDILYFT</span>
                             </div>
 
-                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-sora font-extrabold leading-tight">
-                            Reliable & Compassionate <br> <span class="text-red-500">Medical Transportation</span>
-                        </h1>
+                     <div class="w-full"> <h1 class="text-4xl  sm:text-5xl lg:text-6xl text-center font-sora font-extrabold leading-tight mx-auto">
+        Reliable & Compassionate <br> <span class="text-red-500">Medical Transportation</span>
+    </h1>
+</div>
                         <p class="text-md sm:text-lg text-gray-300 max-w-xl lg:mx-0 mx-auto">
                             Safe, timely, and professional non-emergency medical transport tailored to your needs, 24/7.
                         </p>

@@ -106,7 +106,7 @@ const pricingFaqs = [
     },
     {
         question: "Can I pay with cash or transfer?",
-        answer: "Payments can be made through Cards, Bank transfer or USSD depending on what is convenient for you."
+        answer: "While we do NOT accept cash, Payments can be made through Cards, Bank transfer or USSD depending on what is convenient for you."
     },
     {
         question: "Does MediLyft offer discounted rates for frequent users or vulnerable groups?",

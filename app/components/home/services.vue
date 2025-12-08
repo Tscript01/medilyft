@@ -6,7 +6,7 @@
                 <!-- Header -->
                 <div class="max-w-3xl mx-auto text-center mb-16">
                     <span class=" text-secondary  tracking-wider uppercase text-sm sm:text-lg">Services</span>
-                    <h2 class="text-3xl md:text-3xl font-extrabold text-[#0A2540] mt-3 mb-4">Comprehensive Care in
+                    <h2 class="text-3xl md:text-3xl font-extrabold text-primary mt-3 mb-4 break-all sm:break-normal">Comprehensive Care in
                         Motion</h2>
                     <p class="text-gray-500 text-lg">From emergency response to routine checkups, we offer a range of
                         transport solutions tailored to your specific health needs.</p>
@@ -18,13 +18,13 @@
                         class="group relative bg-white rounded-md p-8  border border-gray-100  hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
 
                         <div
-                            class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#0A2540] transition-colors duration-300">
+                            class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300">
                             <span
-                                class="text-[#0A2540] group-hover:text-white transition-colors duration-300 [&>svg]:w-8 [&>svg]:h-8"
+                                class="text-primary group-hover:text-white transition-colors duration-300 [&>svg]:w-8 [&>svg]:h-8"
                                 v-html="service.icon"></span>
                         </div>
 
-                        <h3 class="text-xl font-bold text-[#0A2540] mb-3 group-hover:text-secondary transition-colors">{{
+                        <h3 class="text-xl font-bold text-primary mb-3 group-hover:text-secondary transition-colors">{{
                             service.title }}</h3>
                         <p class="text-gray-600 leading-relaxed mb-6">
                             {{ service.description }}

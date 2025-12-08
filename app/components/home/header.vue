@@ -26,7 +26,7 @@ onUnmounted(() => {
 
 <template>
     <div :class="{
-        'fixed top-0 w-full z-50 bg-white shadow-md border-b border-gray-200 pb-1': scrolled,
+        'fixed top-0 w-full z-50 bg-white shadow-md border-b border-gray-200 pb-': scrolled,
         'relative pb-2  ': !scrolled,
     }" class="transition-all duration-300">
         <div class="container mx-auto">
