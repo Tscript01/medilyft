@@ -33,9 +33,7 @@ onUnmounted(() => {
             <header class="flex  justify-between items-center h-full">
         <header class="**h-24** flex items-center ..."> 
     <div :class="{
-        // The smaller size for scrolling
         'h-16 md:w-32 md:h-18': scrolled, 
-        // The larger size for normal state (must fit within h-24 header)
         'h-16 md:w-40 md:h-18': !scrolled,
     }" class="relative transition-all duration-300">
         <NuxtLink to="/" class="block w-full h-full">

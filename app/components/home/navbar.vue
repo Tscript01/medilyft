@@ -2,7 +2,7 @@
    <nav 
         :class="{ 
             'fixed top-0 w-full z-50 bg-white shadow-lg border-b border-gray-100 py-2': scrolled,
-            'relative py-4': !scrolled,
+            'relative ': !scrolled,
         }"
         class="transition-all duration-300"
     >
