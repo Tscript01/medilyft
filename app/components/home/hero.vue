@@ -21,10 +21,9 @@
                                 <span class="text-base font-bold tracking-widest text-white">MEDILYFT</span>
                             </div>
 
-                     <div class="w-full"> <h1 class="text-4xl  sm:text-5xl lg:text-6xl text-center font-sora font-extrabold leading-tight mx-auto">
-        Reliable & Compassionate <br> <span class="text-red-500">Medical Transportation</span>
-    </h1>
-</div>
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-sora font-extrabold leading-tight">
+                            Reliable & Compassionate <br> <span class="text-red-500">Medical Transportation</span>
+                        </h1>
                         <p class="text-md sm:text-lg text-gray-300 max-w-xl lg:mx-0 mx-auto">
                             Safe, timely, and professional non-emergency medical transport tailored to your needs, 24/7.
                         </p>
