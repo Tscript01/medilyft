@@ -1,6 +1,6 @@
 <template>
     <section id="pricing" class="py-20 md:py-28 bg-[#F5F8FC]">
-        <div class="container ">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
             <div class="text-center max--3xl mx- mb-16">
                <span class="text-secondary  tracking-wider uppercase text-md">Pricing Insights</span>
      <h2 class="text-2xl md:text-3xl font-bold text-primary">Pricing &amp; Payment FAQs</h2>

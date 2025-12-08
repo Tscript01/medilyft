@@ -1,6 +1,6 @@
 <template>
     <section id="faq" class="py-20 md:py-28">
-        <div class="container ">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="text-secondary  tracking-wider uppercase text-md">Common Questions</span>
                 <h2 class="text-3xl md:text-4xl font-extrabold text-[#0A2540] mt-3 mb-4">

@@ -1,11 +1,11 @@
 <template>
     <div class="bg-gray-50 relative overflow-hidden">
         <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-blue-100 rounded-full blur-3xl opacity-50"></div>
-        <main class=" container ">
+        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  ">
 
     <section id="about" class="py-20 md:py-28  overflow-hidden relative">
 
-        <div class="container mx-auto px-4 sm:px-6  relative z-10">
+        <div class=" mx-auto px-4 sm:px-6  relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
                 
                 <div class="space-y-8">

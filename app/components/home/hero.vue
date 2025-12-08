@@ -10,18 +10,17 @@
                 <div class="absolute inset-0 bg-primary opacity-70"></div>
                 <div class="absolute inset-0 bg-linear-to-r from-primary via-primary/60 to-transparent"></div>
             </div>
-<section class="  relative container ">
+<section class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  ">
 
-            <div class="relative z-10 container   sm:px-6 lg:px-8 py-10 lg:py-32 pt-28">
+            <div class="relative z-10    sm:px-6 lg:px-8 py-10 sm:py-20 lg:py-6">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-
                     <div class="lg:col-span-7 text-white space-y-6 text-center lg:text-left">
                         <div
                                 class="inline-block bg-white/30 backdrop-blur-sm px-5 py-2.5 rounded-full border border-white/40 shadow-lg">
                                 <span class="text-base font-bold tracking-widest text-white">MEDILYFT</span>
                             </div>
 
-                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-sora font-extrabold leading-tight">
+                        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-sora font-extrabold leading-tight">
                             Reliable & Compassionate <br> <span class="text-red-500">Medical Transportation</span>
                         </h1>
                         <p class="text-md sm:text-lg text-gray-300 max-w-xl lg:mx-0 mx-auto">

@@ -1,12 +1,12 @@
 <template>
   <footer class="bg-gray-800 text-white py-12">
-    <div class="container">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div
         class="grid grid-cols-2 md:grid-cols-5 gap-8 border-b border-gray-700 pb-8"
       >
         <!-- Company Info -->
         <div class="col-span-2 md:col-span-1 space-y-4">
-          <div class="w-32">
+          <div class=" w-20 sm:w-32 bg-white rounded-lg p-1">
             <!-- Placeholder for the logo in the footer (you might use a white version) -->
             <img
               class="object-contain h-full w-full"

@@ -1,8 +1,8 @@
 <template>
     <div class="bg-[#0a25400c]">
-           <main class=" container">
+           <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <section id="services" class="py-20 md:py-28 ">
-            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="  ">
                 <!-- Header -->
                 <div class="max-w-3xl mx-auto text-center mb-16">
                     <span class=" text-secondary  tracking-wider uppercase text-sm sm:text-lg">Services</span>
@@ -18,7 +18,7 @@
                         class="group relative bg-white rounded-md p-8  border border-gray-100  hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
 
                         <div
-                            class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300">
+                            class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-pri transition-colors duration-300">
                             <span
                                 class="text-primary group-hover:text-white transition-colors duration-300 [&>svg]:w-8 [&>svg]:h-8"
                                 v-html="service.icon"></span>

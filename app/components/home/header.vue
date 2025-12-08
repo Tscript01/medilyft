@@ -26,19 +26,23 @@ onUnmounted(() => {
 
 <template>
     <div :class="{
-        'fixed top-0 w-full z-50 bg-white shadow-md border-b border-gray-200 pb-': scrolled,
+        'fixed top-0 w-full z-50 bg-white shadow-md border-b border-gray-200 ': scrolled,
         'relative pb-2  ': !scrolled,
     }" class="transition-all duration-300">
-        <div class="container mx-auto">
+        <div class=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
             <header class="flex  justify-between items-center h-full">
-                <div :class="{
-                    ' h-18 md:w-40 md:h-22 lg:h-22': scrolled,
-                    ' h-18 md:w-40 md:h-22  lg:h-22 ': !scrolled,
-                }" class="relative transition-all duration-300">
-                    <NuxtLink to="/" class="block w-full h-full">
-                        <img class="object-contain h-full w-full" src="/images/MediLyft.png" alt="MediLyft Logo" />
-                    </NuxtLink>
-                </div>
+        <header class="**h-24** flex items-center ..."> 
+    <div :class="{
+        // The smaller size for scrolling
+        'h-16 md:w-32 md:h-18': scrolled, 
+        // The larger size for normal state (must fit within h-24 header)
+        'h-16 md:w-40 md:h-18': !scrolled,
+    }" class="relative transition-all duration-300">
+        <NuxtLink to="/" class="block w-full h-full">
+            <img class="object-contain h-full w-full" src="/images/MediLyft.png" alt="MediLyft Logo" />
+        </NuxtLink>
+    </div>
+</header>
 
                 <nav class=" hidden lg:flex h-full">
                     <ul class="flex space-x-10 items-center ">

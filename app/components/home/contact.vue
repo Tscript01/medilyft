@@ -1,14 +1,14 @@
 <template>
     <div id="contact" >
-    <div class=" bg-[#0A2540] relative  overflow-hidden ">
+    <div class=" bg-primary relative  overflow-hidden ">
         <div class="absolute right-0 top-0 -mr-10 -mt-10 w-40 h-40 bg-red-600 blur-[80px] opacity-20"></div>
         <div class="absolute left-0 bottom-0 -ml-20 -mb-20 w-80 h-80 border border-white/10 rounded-full"></div>
-        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,var(--tw-gradient-stops))] from-[#1e3a5f] to-[#0A2540]"></div>
-            <main class=" container">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,var(--tw-gradient-stops))] from-[#1e3a5f] to-primary"></div>
+            <main class=" ">
     <section class="py-24 relative overflow-hidden">
   
 
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+        <div class=" mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
             <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6 tracking-tight">
                 Need a Fast, Reliable Ride?
             </h2>

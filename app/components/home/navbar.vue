@@ -6,7 +6,7 @@
         }"
         class="transition-all duration-300"
     >
-        <div class="container mx-auto px-5">
+        <div class=" mx-auto px-5">
             <header class="flex justify-between items-center h-full">
                 
                 <div 
