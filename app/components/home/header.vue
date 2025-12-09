@@ -4,7 +4,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
 let mobileNav = ref(false);
 let scrolled = ref(false);
 
-const SCROLL_THRESHOLD = 50;
+const SCROLL_THRESHOLD = 60;
 
 let toggleMobileNav = () => {
     mobileNav.value = !mobileNav.value
@@ -27,20 +27,17 @@ onUnmounted(() => {
 <template>
     <div :class="{
         'fixed top-0 w-full z-50 bg-white shadow-md border-b border-gray-200 ': scrolled,
-        'relative pb-2  ': !scrolled,
-    }" class="transition-all duration-300">
+        'relative ': !scrolled,
+    }" class="transition-all duration-">
         <div class=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
             <header class="flex  justify-between items-center h-full">
-        <header class="**h-24** flex items-center ..."> 
-    <div :class="{
-        'h-16 md:w-32 md:h-18': scrolled, 
-        'h-16 md:w-40 md:h-18': !scrolled,
-    }" class="relative transition-all duration-300">
-        <NuxtLink to="/" class="block w-full h-full">
-            <img class="object-contain h-full w-full" src="/images/MediLyft.png" alt="MediLyft Logo" />
-        </NuxtLink>
-    </div>
-</header>
+                <div class=" flex items-center">
+                    <div class="rel  'h-12 w-16 py-2 md:w-20 md:h-18'">
+                        <NuxtLink to="/" class="block w-full h-full">
+                            <img class="object-contain h-full w-full" src="/images/MediLyft.png" alt="MediLyft Logo" />
+                        </NuxtLink>
+                    </div>
+                </div>
 
                 <nav class=" hidden lg:flex h-full">
                     <ul class="flex space-x-10 items-center ">
@@ -67,10 +64,11 @@ onUnmounted(() => {
 
 
                 <div class="hidden lg:block">
-                    <NuxtLink to="https://api.whatsapp.com/send?phone=2348160791374&text=sup%20bro"  class="bg-secondary px-6 mr-3 py-3 truncate text-white font-semibold rounded-lg shadow-md hover:bg-[#0a9ba3ca] cursor-pointer transition duration-200">
-                       
+                    <NuxtLink to="https://api.whatsapp.com/send?phone=2348160791374&text=sup%20bro"
+                        class="bg-secondary px-6 mr-3 py-3 truncate text-white font-semibold rounded-lg shadow-md hover:bg-[#0a9ba3ca] cursor-pointer transition duration-200">
+
                         Book Now
-          </NuxtLink>
+                    </NuxtLink>
                 </div>
                 <button @click="toggleMobileNav()" type="button" class="flex lg:hidden focus:outline-none self-center">
                     <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
@@ -94,7 +92,7 @@ onUnmounted(() => {
                         class="fixed top-0 right-0 w-3/4 h-full bg-white shadow-lg z-50 p-6 flex flex-col">
                         <section class="flex justify-between items-center mb-12">
 
-                            <div class=" h-16 md:w-40 md:h-26">
+                            <div class=" h-16 md:w-20 md:h-18">
                                 <NuxtLink to="/" class="block w-full h-full">
                                     <img class="object-contain h-full w-full" src="/images/MediLyft.png"
                                         alt="MediLyft Logo" />
@@ -112,31 +110,32 @@ onUnmounted(() => {
                         <div class="flex flex-col justify-between h-full">
 
 
-                        <ul class="flex flex-col space-y-6 px-7">
-                            <li class="uppercase hover:text-theme-secondary transition duration-200">
-                                <NuxtLink @click="toggleMobileNav()" to="#about">About</NuxtLink>
-                            </li>
-                            <hr>
-                            <li class="uppercase hover:text-theme-secondary transition duration-200">
-                                <NuxtLink @click="toggleMobileNav()" to="#services">Services</NuxtLink>
-                            </li>
-                            <hr>
-                            <li class="uppercase hover:text-theme-secondary transition duration-200">
-                                <NuxtLink @click="toggleMobileNav()" to="#faq">FAQ</NuxtLink>
-                            </li>
-                            <hr>
-                            <li class="uppercase hover:text-theme-secondary transition duration-200">
-                                <NuxtLink @click="toggleMobileNav()" to="#pricing">Pricing</NuxtLink>
-                            </li>
-                            <hr>
-                            <li class="uppercase hover:text-theme-secondary transition duration-200">
-                                <NuxtLink @click="toggleMobileNav()" to="#contact">Contact </NuxtLink>
-                            </li>
-                        </ul>
-                       <NuxtLink to="https://api.whatsapp.com/send?phone=2348160791374&text=sup%20bro"  class="bg-secondary px-6 mr-3 py-3 truncate text-white font-semibold rounded-lg shadow-md hover:bg-[#0a9ba3ca] cursor-pointer transition duration-200">
-                       
-                        Book Now
-          </NuxtLink>
+                            <ul class="flex flex-col space-y-6 px-7">
+                                <li class="uppercase hover:text-theme-secondary transition duration-200">
+                                    <NuxtLink @click="toggleMobileNav()" to="#about">About</NuxtLink>
+                                </li>
+                                <hr>
+                                <li class="uppercase hover:text-theme-secondary transition duration-200">
+                                    <NuxtLink @click="toggleMobileNav()" to="#services">Services</NuxtLink>
+                                </li>
+                                <hr>
+                                <li class="uppercase hover:text-theme-secondary transition duration-200">
+                                    <NuxtLink @click="toggleMobileNav()" to="#faq">FAQ</NuxtLink>
+                                </li>
+                                <hr>
+                                <li class="uppercase hover:text-theme-secondary transition duration-200">
+                                    <NuxtLink @click="toggleMobileNav()" to="#pricing">Pricing</NuxtLink>
+                                </li>
+                                <hr>
+                                <li class="uppercase hover:text-theme-secondary transition duration-200">
+                                    <NuxtLink @click="toggleMobileNav()" to="#contact">Contact </NuxtLink>
+                                </li>
+                            </ul>
+                            <NuxtLink to="https://api.whatsapp.com/send?phone=2348160791374&text=sup%20bro"
+                                class="bg-secondary px-6 mr-3 py-3 truncate text-white font-semibold rounded-lg shadow-md hover:bg-[#0a9ba3ca] cursor-pointer transition duration-200">
+
+                                Book Now
+                            </NuxtLink>
                         </div>
 
                     </div>
