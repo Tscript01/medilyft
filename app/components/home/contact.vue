@@ -27,7 +27,7 @@
                 </a>
 
                 <!-- Email Button -->
-                <a href="mailto:medilyfthelp@gmail.com" class="group relative px-8 py-4 bg-transparent border-2 border-white/30 rounded-lg hover:bg-white/10 transition-colors w-full sm:w-auto">
+                <a href="mailto:info@medilyfthelp.com" class="group relative px-8 py-4 bg-transparent border-2 border-white/30 rounded-lg hover:bg-white/10 transition-colors w-full sm:w-auto">
                     <div class="relative flex items-center justify-center font-bold text-white uppercase tracking-wider">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg>
                         Email Us

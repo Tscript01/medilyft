@@ -58,7 +58,7 @@
 
             <div class="text-center mt-16">
                 <p class="text-gray-500">Still have questions?</p>
-                <a href="mailto:medilyfthelp@gmail.com" class="text-primary font-bold hover:text-red-600 underline mt-2 inline-block">Contact our support team</a>
+                <a href="mailto:info@medilyfthelp.com" class="text-primary font-bold hover:text-red-600 underline mt-2 inline-block">Contact our support team</a>
             </div>
         </div>
     </section>

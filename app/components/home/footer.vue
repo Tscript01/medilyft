@@ -74,9 +74,9 @@
             <li class=""> 
               <p class="text-gray-400 text-wrap">Email:</p>
               <a
-                href="mailto:medilyfthelp@gmail.com"
+                href="mailto:info@medilyfthelp.com"
                 class="text-red-500 hover:text-red-400 transition duration-200 break-all "
-                >medilyfthelp@gmail.com</a
+                >info@medilyfthelp.com</a
               >
             </li>
           </ul>
