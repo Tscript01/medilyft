@@ -64,7 +64,7 @@ onUnmounted(() => {
 
 
                 <div class="hidden lg:block">
-                    <NuxtLink to="https://api.whatsapp.com/send?phone=2348160791374&text=sup%20bro"
+                    <NuxtLink to="https://api.whatsapp.com/send?phone=2349164777775&text=sup%20bro"
                         class="bg-secondary px-6 mr-3 py-3 truncate text-white font-semibold rounded-lg shadow-md hover:bg-[#0a9ba3ca] cursor-pointer transition duration-200">
 
                         Book Now
@@ -131,7 +131,7 @@ onUnmounted(() => {
                                     <NuxtLink @click="toggleMobileNav()" to="#contact">Contact </NuxtLink>
                                 </li>
                             </ul>
-                            <NuxtLink to="https://api.whatsapp.com/send?phone=2348160791374&text=sup%20bro"
+                            <NuxtLink to="https://api.whatsapp.com/send?phone=2349164777775&text=sup%20bro"
                                 class="bg-secondary px-6 mr-3 py-3 truncate text-white font-semibold rounded-lg shadow-md hover:bg-[#0a9ba3ca] cursor-pointer transition duration-200">
 
                                 Book Now

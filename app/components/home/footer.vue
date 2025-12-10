@@ -66,7 +66,7 @@
             <li>
               <p class="text-gray-400">Phone:</p>
               <a
-                href="tel:08160791374"
+                href="tel:09164777775"
                 class="text-red-500 hover:text-red-400 transition duration-200"
                 >08160791374</a
               >
