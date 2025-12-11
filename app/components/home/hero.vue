@@ -27,7 +27,7 @@
                                 24/7.
                             </p>
                             <div class="pt-4  md:block">
-                                <NuxtLink to="https://api.whatsapp.com/send?phone=2349164777775&text=sup%20bro"
+                                <NuxtLink to="https://api.whatsapp.com/send?phone=2349164777775&text=hi"
                                     class="px-8 py-3 bg-secondary text-white font- rounded-lg shadow-xl hover:bg-[#0a9ba3ca] transition duration-300 uppercase tracking-wider">
                                     Schedule a Ride
                                 </NuxtLink>
