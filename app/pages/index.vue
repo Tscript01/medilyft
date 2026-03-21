@@ -8,6 +8,7 @@
     <HomeFaq/>
     <HomeContact/>
     <HomePricingfaq/>
+    <HomeDriver/>
 
     <HomeFooter/>
    
