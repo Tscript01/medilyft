@@ -133,6 +133,7 @@ onUnmounted(() => {
                                 <li class="uppercase hover:text-theme-secondary transition duration-200">
                                     <NuxtLink @click="toggleMobileNav()" to="#contact">Contact </NuxtLink>
                                 </li>
+                                <hr>
                                 <li class="uppercase hover:text-theme-secondary transition duration-200">
                                     <NuxtLink @click="toggleMobileNav()" to="#become-a-driver">Become a Driver </NuxtLink>
                                 </li>
