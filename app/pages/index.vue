@@ -4,11 +4,11 @@
     <HomeHeader/>
     <HomeHero/>
     <HomeAbout/>
+    <HomeDriver/>
     <HomeServices/>
     <HomeFaq/>
     <HomeContact/>
     <HomePricingfaq/>
-    <HomeDriver/>
 
     <HomeFooter/>
    
