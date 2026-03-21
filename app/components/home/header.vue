@@ -57,6 +57,9 @@ onUnmounted(() => {
                         <li class=" hover:text-theme-secondary transition duration-200">
                             <NuxtLink to="#contact">Contact </NuxtLink>
                         </li>
+                        <li class=" hover:text-theme-secondary transition duration-200">
+                            <NuxtLink to="#become-a-driver">Become a Driver </NuxtLink>
+                        </li>
 
                     </ul>
 
@@ -129,6 +132,9 @@ onUnmounted(() => {
                                 <hr>
                                 <li class="uppercase hover:text-theme-secondary transition duration-200">
                                     <NuxtLink @click="toggleMobileNav()" to="#contact">Contact </NuxtLink>
+                                </li>
+                                <li class="uppercase hover:text-theme-secondary transition duration-200">
+                                    <NuxtLink @click="toggleMobileNav()" to="#become-a-driver">Become a Driver </NuxtLink>
                                 </li>
                             </ul>
                             <NuxtLink to="https://api.whatsapp.com/send?phone=2348157612294&text=hi"
