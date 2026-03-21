@@ -46,6 +46,9 @@
                         <li class="uppercase hover:text-red-600 transition duration-200">
                             <NuxtLink to="/pricing">Pricing</NuxtLink>
                         </li>
+                        <li class="uppercase hover:text-red-600 transition duration-200">
+                            <NuxtLink to="#become-a-driver">Become a Driver</NuxtLink>
+                        </li>
                         <!-- CTA Button -->
                         <li class="bg-red-600 px-6 py-3 text-white rounded-lg shadow-md hover:bg-red-700 cursor-pointer transition duration-200">
                             <NuxtLink to="#quote">Request a Ride</NuxtLink>
