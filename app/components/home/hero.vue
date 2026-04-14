@@ -8,6 +8,21 @@ useHead({
       as: "image",
       href: "/images/hero-background.jpg",
     },
+    {
+      rel: "preload",
+      as: "image",
+      href: "/images/hero1.jpg",
+    },
+    {
+      rel: "preload",
+      as: "image",
+      href: "/images/hero-staff.jpg",
+    },
+    {
+      rel: "preload",
+      as: "image",
+      href: "/images/hero-vehicle.jpg",
+    },
   ],
 });
 

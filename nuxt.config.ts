@@ -35,12 +35,12 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers. Trusted by hospitals and medical facilities.",
+            "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers. Trusted by hospitals and medical facilities in Ekiti State, Nigeria.",
         },
         {
           name: "keywords",
           content:
-            "medical transportation, patient transport, healthcare rides, medical appointments",
+            "medical transportation, patient transport, healthcare rides, medical appointments, Ekiti State, Nigeria",
         },
         {
           property: "og:title",
@@ -49,7 +49,7 @@ export default defineNuxtConfig({
         {
           property: "og:description",
           content:
-            "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers in Nigeria.",
+            "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers in Ekiti State, Nigeria.",
         },
         { property: "og:type", content: "website" },
         { property: "og:url", content: "https://www.medilyfthelp.com" },
@@ -65,7 +65,7 @@ export default defineNuxtConfig({
         {
           name: "twitter:description",
           content:
-            "Professional medical transportation services offering safe, reliable rides for healthcare appointments.",
+            "Professional medical transportation services offering safe, reliable rides for healthcare appointments in Ekiti State, Nigeria.",
         },
         {
           name: "twitter:image",
