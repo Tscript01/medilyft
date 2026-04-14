@@ -5,11 +5,11 @@ export const useStructuredData = () => {
     name: "MediLyft",
     description:
       "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers.",
-    url: "https://www.medilyft.com",
-    logo: "https://www.medilyft.com/images/MediLyft.png",
-    image: "https://www.medilyft.com/images/MediLyft.png",
-    telephone: "+234-XXX-XXXX-XXX",
-    email: "support@medilyft.com",
+    url: "https://www.medilyfthelp.com",
+    logo: "https://www.medilyfthelp.com/images/MediLyft.png",
+    image: "https://www.medilyfthelp.com/images/MediLyft.png",
+    telephone: "+2348160791374",
+    email: "info@medilyfthelp.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Ekiti State",
@@ -17,9 +17,9 @@ export const useStructuredData = () => {
       addressCountry: "NG",
     },
     sameAs: [
-      "https://www.facebook.com/medilyft",
-      "https://twitter.com/medilyft",
-      "https://www.instagram.com/medilyft",
+      "https://www.facebook.com/profile.php?id=61584847349030",
+      "https://www.instagram.com/medilyfthelp",
+      "https://www.tiktok.com/@medilyfthelp",
     ],
     priceRange: "$$",
   };
@@ -30,7 +30,7 @@ export const useStructuredData = () => {
     name: "MediLyft Medical Transportation",
     description:
       "Professional medical transportation and ambulance coordination services",
-    url: "https://www.medilyft.com",
+    url: "https://www.medilyfthelp.com",
     offers: {
       "@type": "Offer",
       name: "Medical Transportation Services",

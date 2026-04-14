@@ -5,5 +5,5 @@ Disallow: /api
 Disallow: /*.json
 Disallow: /.nuxt/
 Crawl-delay: 1
-Sitemap: https://www.medilyft.com/sitemap.xml
-Sitemap: https://www.medilyft.com/sitemap-en.xml
+Sitemap: https://www.medilyfthelp.com/sitemap.xml
+Sitemap: https://www.medilyfthelp.com/sitemap-en.xml

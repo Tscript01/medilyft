@@ -31,13 +31,13 @@ useHead({
     },
     {
       property: "og:url",
-      content: "https://www.medilyft.com/terms",
+      content: "https://www.medilyfthelp.com/terms",
     },
   ],
   link: [
     {
       rel: "canonical",
-      href: "https://www.medilyft.com/terms",
+      href: "https://www.medilyfthelp.com/terms",
     },
   ],
 });
@@ -194,7 +194,7 @@ useHead({
           <h3>10. CONTACT AND DISPUTE RESOLUTION</h3>
           <p>
             For disputes or inquiries, please contact us at
-            support@medilyft.com.<br />
+            support@medilyfthelp.com.<br />
             All claims must be filed within one (1) year from the date the cause
             of action occurred.
           </p>

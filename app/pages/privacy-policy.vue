@@ -30,13 +30,13 @@ useHead({
     },
     {
       property: "og:url",
-      content: "https://www.medilyft.com/privacy-policy",
+      content: "https://www.medilyfthelp.com/privacy-policy",
     },
   ],
   link: [
     {
       rel: "canonical",
-      href: "https://www.medilyft.com/privacy-policy",
+      href: "https://www.medilyfthelp.com/privacy-policy",
     },
   ],
 });
@@ -214,7 +214,7 @@ useHead({
             <li>Request restriction of processing;</li>
             <li>Request portability of your data.</li>
           </ul>
-          <p>To exercise these rights, contact us at support@medilyft.com.</p>
+          <p>To exercise these rights, contact us at support@medilyfthelp.com.</p>
         </section>
 
         <section>
@@ -242,7 +242,7 @@ useHead({
           <p>
             For questions, concerns, or requests regarding this Privacy Policy,
             please contact:<br />
-            <strong>Email:</strong> support@medilyft.com<br />
+            <strong>Email:</strong> support@medilyfthelp.com<br />
             <strong>Address:</strong> Ekiti State, Nigeria
           </p>
         </section>

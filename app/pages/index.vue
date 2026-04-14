@@ -34,13 +34,13 @@ useHead({
     },
     {
       property: "og:url",
-      content: "https://www.medilyft.com",
+      content: "https://www.medilyfthelp.com",
     },
   ],
   link: [
     {
       rel: "canonical",
-      href: "https://www.medilyft.com",
+      href: "https://www.medilyfthelp.com",
     },
   ],
 });

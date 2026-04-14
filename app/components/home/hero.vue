@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
 
+useHead({
+  link: [
+    {
+      rel: "preload",
+      as: "image",
+      href: "/images/hero-background.jpg",
+    },
+  ],
+});
+
 const scrolled = ref(false);
 
 const handleScroll = () => {

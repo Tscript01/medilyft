@@ -31,13 +31,13 @@ useHead({
     },
     {
       property: "og:url",
-      content: "https://www.medilyft.com/about",
+      content: "https://www.medilyfthelp.com/about",
     },
   ],
   link: [
     {
       rel: "canonical",
-      href: "https://www.medilyft.com/about",
+      href: "https://www.medilyfthelp.com/about",
     },
   ],
 });

@@ -72,7 +72,7 @@
 
 1. **Update Contact Information**
    - Replace "+234-XXX-XXXX-XXX" in structured data with actual phone number
-   - Replace "support@medilyft.com" with actual email
+   - Replace "support@medilyfthelp.com" with actual email
    - Update address details with full location information
 
 2. **Test Structured Data**

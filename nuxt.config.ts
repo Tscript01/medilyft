@@ -11,10 +11,10 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: "https://www.medilyft.com",
+    url: "https://www.medilyfthelp.com",
   },
   sitemap: {
-    hostname: "https://www.medilyft.com",
+    hostname: "https://www.medilyfthelp.com",
     gzip: true,
     routes: ["/", "/about", "/privacy-policy", "/terms"],
     exclude: ["/v1admin/**"],
@@ -24,7 +24,7 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   app: {
     head: {
-      title: "MediLyft - Reliable Medical Transportation Services",
+      title: "MediLyft - Medical Transportation in Ekiti State, Nigeria",
       htmlAttrs: {
         lang: "en",
       },
@@ -49,13 +49,13 @@ export default defineNuxtConfig({
         {
           property: "og:description",
           content:
-            "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers.",
+            "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers in Nigeria.",
         },
         { property: "og:type", content: "website" },
-        { property: "og:url", content: "https://www.medilyft.com" },
+        { property: "og:url", content: "https://www.medilyfthelp.com" },
         {
           property: "og:image",
-          content: "https://www.medilyft.com/images/MediLyft.png",
+          content: "https://www.medilyfthelp.com/images/MediLyft.png",
         },
         { name: "twitter:card", content: "summary_large_image" },
         {
@@ -69,7 +69,7 @@ export default defineNuxtConfig({
         },
         {
           name: "twitter:image",
-          content: "https://www.medilyft.com/images/MediLyft.png",
+          content: "https://www.medilyfthelp.com/images/MediLyft.png",
         },
         { name: "format-detection", content: "telephone=no" },
         { name: "theme-color", content: "#ffffff" },
@@ -77,7 +77,7 @@ export default defineNuxtConfig({
       link: [
         {
           rel: "canonical",
-          href: "https://www.medilyft.com",
+          href: "https://www.medilyfthelp.com",
         },
         {
           rel: "icon",
