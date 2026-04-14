@@ -1,9 +1,26 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
-  ssr: false,
+  ssr: true, // Enable SSR for better SEO
   devtools: { enabled: true },
-  modules: ["@nuxt/ui", "@nuxt/eslint", "motion-v/nuxt"],
+  modules: ["@nuxt/ui", "@nuxt/eslint", "motion-v/nuxt", "@nuxtjs/sitemap"],
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/sitemap.xml", "/robots.txt"],
+    },
+  },
+  site: {
+    url: "https://www.medilyft.com",
+  },
+  sitemap: {
+    hostname: "https://www.medilyft.com",
+    gzip: true,
+    routes: ["/", "/about", "/privacy-policy", "/terms"],
+    exclude: ["/v1admin/**"],
+    sitemapSize: 50000,
+    indexSitemapSize: 50000,
+  },
   css: ["~/assets/css/main.css"],
   app: {
     head: {
@@ -15,10 +32,53 @@ export default defineNuxtConfig({
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-
+        {
+          name: "description",
+          content:
+            "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers. Trusted by hospitals and medical facilities.",
+        },
+        {
+          name: "keywords",
+          content:
+            "medical transportation, patient transport, healthcare rides, medical appointments",
+        },
+        {
+          property: "og:title",
+          content: "MediLyft - Reliable Medical Transportation Services",
+        },
+        {
+          property: "og:description",
+          content:
+            "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers.",
+        },
+        { property: "og:type", content: "website" },
+        { property: "og:url", content: "https://www.medilyft.com" },
+        {
+          property: "og:image",
+          content: "https://www.medilyft.com/images/MediLyft.png",
+        },
+        { name: "twitter:card", content: "summary_large_image" },
+        {
+          name: "twitter:title",
+          content: "MediLyft - Reliable Medical Transportation Services",
+        },
+        {
+          name: "twitter:description",
+          content:
+            "Professional medical transportation services offering safe, reliable rides for healthcare appointments.",
+        },
+        {
+          name: "twitter:image",
+          content: "https://www.medilyft.com/images/MediLyft.png",
+        },
         { name: "format-detection", content: "telephone=no" },
+        { name: "theme-color", content: "#ffffff" },
       ],
       link: [
+        {
+          rel: "canonical",
+          href: "https://www.medilyft.com",
+        },
         {
           rel: "icon",
           type: "image/png",

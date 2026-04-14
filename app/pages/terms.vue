@@ -1,3 +1,48 @@
+<script setup lang="ts">
+definePageMeta({
+  title: "Terms and Conditions - MediLyft",
+});
+
+useHead({
+  title: "Terms and Conditions - MediLyft Medical Transportation",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Read MediLyft's terms and conditions governing the use of our medical transportation services. Understand your rights and responsibilities as a user.",
+    },
+    {
+      name: "keywords",
+      content:
+        "terms and conditions, user agreement, service terms, legal terms",
+    },
+    {
+      property: "og:title",
+      content: "Terms and Conditions - MediLyft",
+    },
+    {
+      property: "og:description",
+      content:
+        "Read MediLyft's terms and conditions governing the use of our medical transportation services.",
+    },
+    {
+      property: "og:type",
+      content: "website",
+    },
+    {
+      property: "og:url",
+      content: "https://www.medilyft.com/terms",
+    },
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://www.medilyft.com/terms",
+    },
+  ],
+});
+</script>
+
 <template>
   <div class="terms-page">
     <div class="container">
@@ -13,297 +58,228 @@
       <div class="content">
         <section>
           <p>
-            MediGrid Solutions Limited ("MediGrid", "we", "our", or "us"), the operator of the <strong>Medilyft</strong> service and platform, provides a technology-enabled platform for coordinating ambulance and emergency transport services (the "Services").
+            MediGrid Solutions Limited ("MediGrid", "we", "our", or "us"), the
+            operator of the <strong>Medilyft</strong> service and platform,
+            provides a technology-enabled platform for coordinating ambulance
+            and emergency transport services (the "Services").
           </p>
           <p>
-            These Terms and Conditions ("Terms") govern your access to and use of the Medilyft mobile application, website, and related Services. By accessing, registering for, or using the Services, you agree to be bound by these Terms. If you do not agree, you must not use the Services.
+            These Terms and Conditions ("Terms") govern your access to and use
+            of the Medilyft mobile application, website, and related Services.
+            By accessing, registering for, or using the Services, you agree to
+            be bound by these Terms. If you do not agree, you must not use the
+            Services.
           </p>
         </section>
 
         <section>
           <h3>1. SCOPE AND APPLICATION</h3>
           <p>
-            <strong>1.1</strong> These Terms apply to all users ("you", "your", "User"), including individuals requesting ambulance or emergency transport coordination, service providers (drivers, vehicle owners, responders), medical partners, and visitors to our digital platforms.
+            <strong>1.1</strong> These Terms apply to all users ("you", "your",
+            "User"), including individuals requesting ambulance or emergency
+            transport coordination, service providers (drivers, vehicle owners,
+            responders), medical partners, and visitors to our digital
+            platforms.
           </p>
           <p>
-            <strong>1.2</strong> The Services are currently available primarily in Ekiti State as part of our initial rollout phase.
+            <strong>1.2</strong> The Services are currently available primarily
+            in Ekiti State as part of our initial rollout phase.
           </p>
         </section>
 
         <section>
-          <h3>2. DESCRIPTION OF SERVICES</h3>
+          <h3>2. USER ACCOUNTS AND REGISTRATION</h3>
           <p>
-            <strong>2.1</strong> Medilyft is a digital platform that facilitates coordination between users needing emergency transport and independent ambulance drivers, vehicle owners, emergency responders, and healthcare facilities.
+            <strong>2.1</strong> To access certain features, you must create an
+            account and provide accurate, complete, and current information.
           </p>
           <p>
-            <strong>2.2</strong> We act solely as an intermediary technology provider. We do not own, operate, control, or employ the vehicles, drivers, or responders. All transport and medical services are provided directly by independent third parties.
+            <strong>2.2</strong> You are responsible for maintaining the
+            confidentiality of your account credentials and for all activities
+            conducted through your account.
           </p>
           <p>
-            <strong>2.3</strong> The Services do not constitute medical advice, diagnosis, or treatment, nor do they replace professional emergency medical services or public emergency numbers.
-          </p>
-        </section>
-
-        <section>
-          <h3>3. USER ELIGIBILITY AND ACCOUNT</h3>
-          <p>
-            <strong>3.1</strong> You must be at least 18 years old or have parental/guardian consent to use the Services.
-          </p>
-          <p>
-            <strong>3.2</strong> You agree to provide accurate, current, and complete information during registration and to update it as necessary.
-          </p>
-          <p>
-            <strong>3.3</strong> You are responsible for maintaining the confidentiality of your account credentials and for all activities under your account.
+            <strong>2.3</strong> You must not use another person's account or
+            provide false information during registration.
           </p>
         </section>
 
         <section>
-          <h3>4. USER CONDUCT</h3>
-          <p><strong>4.1</strong> You agree not to:</p>
-          <ul>
-            <li>Use the Services for any unlawful, fraudulent, or harmful purpose;</li>
-            <li>Provide false emergency information;</li>
-            <li>Harass, abuse, or threaten any person via the platform;</li>
-            <li>Interfere with the operation of the Services.</li>
-          </ul>
+          <h3>3. SERVICE DESCRIPTION</h3>
           <p>
-            <strong>4.2</strong> We reserve the right to suspend or terminate accounts for violations.
+            <strong>3.1</strong> MediLyft coordinates ambulance and emergency
+            transport services through a technology platform. We do not directly
+            operate vehicles but facilitate connections between requesters and
+            service providers.
+          </p>
+          <p>
+            <strong>3.2</strong> Service availability, dispatch times, and
+            availability of drivers are not guaranteed. We make reasonable
+            efforts to fulfill service requests promptly.
           </p>
         </section>
 
         <section>
-          <h3>5. SERVICE REQUESTS AND COORDINATION</h3>
+          <h3>4. USER RESPONSIBILITIES</h3>
           <p>
-            <strong>5.1</strong> When you submit a request, we attempt to match it with available independent providers based on location, availability, and other factors.
+            <strong>4.1</strong> You agree to provide accurate information
+            during service requests.
           </p>
           <p>
-            <strong>5.2</strong> We do not guarantee response time, vehicle availability, or successful dispatch due to external factors (traffic, weather, provider availability, etc.).
+            <strong>4.2</strong> You agree not to use our Services for illegal,
+            fraudulent, or harmful purposes.
           </p>
           <p>
-            <strong>5.3</strong> You agree that dispatch and transport occur at your own risk, subject to the independent provider's terms.
-          </p>
-        </section>
-
-        <section>
-          <h3>6. PAYMENTS</h3>
-          <p>
-            <strong>6.1</strong> Fees for coordinated services are displayed prior to confirmation and charged via integrated payment methods.
-          </p>
-          <p>
-            <strong>6.2</strong> All payments are processed securely. We may add convenience fees or service charges.
-          </p>
-          <p>
-            <strong>6.3</strong> Prices and fees are subject to change with notice via the platform.
+            <strong>4.3</strong> Users must comply with all applicable laws and
+            regulations in their use of the platform.
           </p>
         </section>
 
         <section>
-          <h3>7. CANCELLATIONS</h3>
+          <h3>5. LIMITATION OF LIABILITY</h3>
           <p>
-            <strong>7.1</strong> Pre-dispatch cancellations (before vehicle assignment/dispatch) are permitted without charge, subject to any transaction fees.
+            <strong>5.1</strong> To the maximum extent permitted by law,
+            MediGrid and its officers, employees, and agents shall not be liable
+            for any indirect, incidental, special, consequential, or punitive
+            damages.
           </p>
           <p>
-            <strong>7.2</strong> Post-dispatch cancellations may incur a cancellation fee to cover dispatched provider costs.
-          </p>
-          <p>
-            <strong>7.3</strong> No cancellations are permitted once the service has commenced or the vehicle has arrived.
-          </p>
-        </section>
-
-        <section>
-          <h3>8. REFUND POLICY</h3>
-          <p>
-            <strong>8.1</strong> Due to the emergency and time-critical nature of the Services, payments are generally non-refundable once a vehicle has been dispatched or service commenced.
-          </p>
-          <p><strong>8.2</strong> Refunds may be considered in limited cases:</p>
-          <ul>
-            <li><strong>8.2.1</strong> Pre-dispatch cancellation – full refund less transaction/gateway fees.</li>
-            <li><strong>8.2.2</strong> No vehicle dispatched within reasonable time and user cancels – full refund less fees.</li>
-            <li><strong>8.2.3</strong> Demonstrable overcharge or billing error.</li>
-            <li><strong>8.2.4</strong> Platform technical failure preventing service after payment.</li>
-          </ul>
-          <p><strong>8.3</strong> Refunds will NOT be issued:</p>
-          <ul>
-            <li><strong>8.3.1</strong> After dispatch or service commencement.</li>
-            <li><strong>8.3.2</strong> For user no-show or refusal to use the service.</li>
-            <li><strong>8.3.3</strong> Where service was successfully provided.</li>
-          </ul>
-          <p>
-            <strong>8.4</strong> To request a refund, contact support at <a href="mailto:support@medilyfthelp.com">support@medilyfthelp.com</a> within 7 days of the transaction, providing transaction ID, details, and evidence. Approved refunds are processed to the original payment method within 7 business days (subject to provider timelines). Deductions for fees/costs may apply.
-          </p>
-          <p>
-            <strong>8.5</strong> We reserve the right to issue goodwill credits (e.g., platform wallet) in appropriate cases at our discretion.
+            <strong>5.2</strong> Our total liability shall not exceed the amount
+            paid by you in the past 12 months.
           </p>
         </section>
 
         <section>
-          <h3>9. DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY</h3>
+          <h3>6. DISCLAIMERS</h3>
           <p>
-            <strong>9.1</strong> The Services are provided "as is" and "as available" without warranties of any kind.
+            <strong>6.1</strong> Services are provided on an "AS IS" basis. We
+            make no warranties of merchantability, fitness, or non-infringement.
           </p>
-          <p><strong>9.2</strong> We are not liable for:</p>
-          <ul>
-            <li>Delays, failures, or unavailability of providers;</li>
-            <li>Acts/omissions of independent providers or third parties;</li>
-            <li>Injury, death, property damage, or losses arising from transport/medical services;</li>
-            <li>Indirect, consequential, or punitive damages.</li>
-          </ul>
           <p>
-            <strong>9.3</strong> Our total liability shall not exceed the amount paid by you for the specific service request giving rise to the claim.
+            <strong>6.2</strong> We do not warrant that services will be
+            uninterrupted, timely, or error-free.
           </p>
         </section>
 
         <section>
-          <h3>10. INDEMNITY</h3>
+          <h3>7. INDEMNIFICATION</h3>
           <p>
-            You agree to indemnify and hold us harmless from claims arising from your use of the Services, breach of these Terms, or your interactions with providers.
+            You agree to indemnify, defend, and hold harmless MediGrid and its
+            affiliates from any claims, liabilities, and expenses arising from
+            your violation of these Terms or misuse of the Services.
           </p>
         </section>
 
         <section>
-          <h3>11. DATA PROTECTION</h3>
+          <h3>8. TERMINATION</h3>
           <p>
-            Your use of the Services is subject to our <NuxtLink to="/privacy-policy">Privacy Policy</NuxtLink>, incorporated herein by reference.
+            <strong>8.1</strong> MediGrid may terminate or suspend your access
+            immediately for violation of these Terms.
+          </p>
+          <p>
+            <strong>8.2</strong> Upon termination, your right to use the
+            Services ceases immediately.
           </p>
         </section>
 
         <section>
-          <h3>12. CHANGES TO TERMS</h3>
+          <h3>9. GOVERNING LAW</h3>
           <p>
-            We may update these Terms. Continued use after changes constitutes acceptance.
+            These Terms are governed by the laws of the Federal Republic of
+            Nigeria without regard to conflict of law principles.
           </p>
         </section>
 
         <section>
-          <h3>13. GOVERNING LAW AND DISPUTE RESOLUTION</h3>
+          <h3>10. CONTACT AND DISPUTE RESOLUTION</h3>
           <p>
-            <strong>13.1</strong> These Terms are governed by the laws of the Federal Republic of Nigeria.
-          </p>
-          <p>
-            <strong>13.2</strong> Disputes shall first be attempted via negotiation; failing that, submitted to mediation or the courts in Ekiti State.
+            For disputes or inquiries, please contact us at
+            support@medilyft.com.<br />
+            All claims must be filed within one (1) year from the date the cause
+            of action occurred.
           </p>
         </section>
 
-        <section>
-          <h3>14. CONTACT INFORMATION</h3>
-          <p>For questions or notices:</p>
-          <div class="contact-info">
-            <p><strong>Customer Support Team</strong></p>
-            <p>MediGrid Solutions Limited (operating Medilyft)</p>
-            <p><strong>Email:</strong> medilyfthelp@gmail.com</p>
-            <p><strong>Address:</strong> 14, Ekute Quarters, Ekute, Ado-Ekiti, Ekiti State</p>
-          </div>
-        </section>
-
-        <section class="disclaimer">
-          <h3>EMERGENCY DISCLAIMER</h3>
-          <p>
-            Medilyft, operated by MediGrid Solutions Limited, provides a technology-enabled platform for coordinating ambulance and emergency transport services. It does not replace emergency medical professionals, public emergency services, or direct medical care where available. In life-threatening situations, <strong>call public emergency lines immediately.</strong>
-          </p>
-        </section>
+        <div class="disclaimer">
+          <strong>Disclaimer:</strong> These terms and conditions are subject to
+          updates and modifications. Continued use of the platform constitutes
+          acceptance of updated terms.
+        </div>
       </div>
     </div>
   </div>
 </template>
 
-<script setup>
-useHead({
-  title: 'Terms and Conditions - MediGrid Solutions Limited',
-  meta: [
-    {
-      name: 'description',
-      content: 'MediGrid Solutions Limited Terms and Conditions - Read our terms governing the use of Medilyft ambulance coordination services.'
-    }
-  ]
-})
-</script>
-
 <style scoped>
 .terms-page {
+  background: #f8fafc;
   min-height: 100vh;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  padding: 2rem 1rem;
+  padding: 2rem 0;
 }
 
 .container {
   max-width: 900px;
   margin: 0 auto;
+  padding: 3rem 2rem;
   background: white;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  padding: 3rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .header {
   text-align: center;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 3px solid #2563eb;
+  border-bottom: 2px solid #e2e8f0;
 }
 
 .header h1 {
   font-size: 2rem;
   font-weight: 700;
-  color: #1e293b;
+  color: #0f172a;
   margin-bottom: 0.5rem;
 }
 
 .header h2 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #2563eb;
+  color: #1e293b;
   margin-bottom: 1.5rem;
 }
 
 .dates {
   display: flex;
-  justify-content: center;
   gap: 2rem;
+  justify-content: center;
   flex-wrap: wrap;
-}
-
-.dates p {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: #64748b;
 }
 
-.content {
-  line-height: 1.8;
-  color: #334155;
-}
-
-section {
+.content section {
   margin-bottom: 2.5rem;
 }
 
-section p {
+.content section p {
+  line-height: 1.8;
+  color: #475569;
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+h4 {
+  font-size: 1.1rem;
   font-weight: 600;
   color: #1e293b;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-}
-
-ul {
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-ul li {
-  margin-bottom: 0.5rem;
-}
-
-.contact-info {
-  background: #f8fafc;
-  padding: 1.5rem;
-  border-radius: 8px;
-  border-left: 4px solid #2563eb;
-}
-
-.contact-info p {
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 
@@ -317,15 +293,6 @@ ul li {
 strong {
   font-weight: 600;
   color: #1e293b;
-}
-
-a {
-  color: #2563eb;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #1d4ed8;
 }
 
 @media (max-width: 768px) {
@@ -343,11 +310,6 @@ a:hover {
 
   h3 {
     font-size: 1.3rem;
-  }
-
-  .dates {
-    flex-direction: column;
-    gap: 0.5rem;
   }
 }
 </style>
