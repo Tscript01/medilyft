@@ -1,13 +1,13 @@
 <script setup lang="ts">
 definePageMeta({
-  title: "MediLyft - Reliable Medical Transportation Services | Home",
+  title: "MediLyft - Medical Transportation Services in Ekiti State, Nigeria",
 });
 
 const { organizationSchema, serviceSchema, setStructuredData } =
   useStructuredData();
 
 useHead({
-  title: "MediLyft - Medical Transportation Services",
+  title: "MediLyft - Medical Transportation Services in Ekiti State, Nigeria",
   meta: [
     {
       name: "description",

@@ -26,6 +26,8 @@ export const useStructuredData = () => {
       "@type": "PostalAddress",
       streetAddress: "Ekiti State",
       addressLocality: "Ado-Ekiti",
+      addressRegion: "Ekiti",
+      postalCode: "360001",
       addressCountry: "NG",
     },
     sameAs: [
@@ -34,6 +36,7 @@ export const useStructuredData = () => {
       "https://www.tiktok.com/@medilyfthelp",
     ],
     priceRange: "$$",
+    openingHours: "Mo-Su 00:00-24:00",
   };
 
   const serviceSchema = {
@@ -87,7 +90,7 @@ export const useStructuredData = () => {
       script: [
         {
           type: "application/ld+json",
-          children: JSON.stringify(schema),
+          textContent: JSON.stringify(schema),
         },
       ],
     });
