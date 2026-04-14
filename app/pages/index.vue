@@ -12,7 +12,7 @@ useHead({
     {
       name: "description",
       content:
-        "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers. Trusted by hospitals and medical facilities.",
+        "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers. Trusted by hospitals and medical facilities in Ekiti State, Nigeria.",
     },
     {
       name: "keywords",
@@ -26,7 +26,7 @@ useHead({
     {
       property: "og:description",
       content:
-        "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers.",
+        "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers in Ekiti State, Nigeria.",
     },
     {
       property: "og:type",

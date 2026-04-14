@@ -7,21 +7,27 @@ useHead({
       rel: "preload",
       as: "image",
       href: "/images/hero-background.jpg",
+      imagesrcset:
+        "/images/hero-background-mobile.jpg 768w, /images/hero-background.jpg 2072w",
+      imagesizes: "100vw",
     },
     {
       rel: "preload",
       as: "image",
       href: "/images/hero1.jpg",
+      media: "(min-width: 1024px)",
     },
     {
       rel: "preload",
       as: "image",
       href: "/images/hero-staff.jpg",
+      media: "(min-width: 1024px)",
     },
     {
       rel: "preload",
       as: "image",
       href: "/images/hero-vehicle.jpg",
+      media: "(min-width: 1024px)",
     },
   ],
 });
@@ -67,17 +73,29 @@ const handleSubmit = () => {
       id="quote"
       class="relative min-h-[700px] xl:min-h-[600px] overflow-hidden -mt-20 md:-mt-24 lg:-mt-32"
     >
+      <picture class="absolute inset-0">
+        <source
+          srcset="/images/hero-background-mobile.jpg"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/images/hero-background.jpg"
+          srcset="
+            /images/hero-background-mobile.jpg 768w,
+            /images/hero-background.jpg 2072w
+          "
+          sizes="100vw"
+          fetchpriority="high"
+          decoding="async"
+          alt=""
+          aria-hidden="true"
+          class="absolute inset-0 h-full w-full object-cover"
+        />
+      </picture>
+      <div class="absolute inset-0 bg-primary opacity-70"></div>
       <div
-        class="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        :style="{
-          backgroundImage: `url('/images/hero-background.jpg')`,
-        }"
-      >
-        <div class="absolute inset-0 bg-primary opacity-70"></div>
-        <div
-          class="absolute inset-0 bg-linear-to-r from-primary via-primary/60 to-transparent"
-        ></div>
-      </div>
+        class="absolute inset-0 bg-linear-to-r from-primary via-primary/60 to-transparent"
+      ></div>
       <section
         class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-[700px] xl:min-h-[600px] flex items-center"
       >
@@ -146,7 +164,8 @@ const handleSubmit = () => {
                   <img
                     src="/images/hero1.jpg"
                     alt="Medical transport specialist helping senior patient"
-                    loading="lazy"
+                    loading="eager"
+                    decoding="async"
                     class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700"
                   />
                 </div>
@@ -158,7 +177,8 @@ const handleSubmit = () => {
                   <img
                     src="/images/hero-staff.jpg"
                     alt="Smiling medical staff member"
-                    loading="lazy"
+                    loading="eager"
+                    decoding="async"
                     class="w-full h-full object-cover"
                   />
                 </div>
@@ -170,7 +190,8 @@ const handleSubmit = () => {
                   <img
                     src="/images/hero-vehicle.jpg"
                     alt="Modern medical transport vehicle interior"
-                    loading="lazy"
+                    loading="eager"
+                    decoding="async"
                     class="w-full h-full object-cover"
                   />
                 </div>

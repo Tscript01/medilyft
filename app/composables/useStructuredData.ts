@@ -1,10 +1,22 @@
+type JsonLdValue =
+  | string
+  | number
+  | boolean
+  | null
+  | JsonLdObject
+  | JsonLdValue[];
+
+type JsonLdObject = {
+  [key: string]: JsonLdValue;
+};
+
 export const useStructuredData = () => {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "MediLyft",
     description:
-      "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers.",
+      "Professional medical transportation services offering safe, reliable rides for healthcare appointments and patient transfers in Ekiti State, Nigeria.",
     url: "https://www.medilyfthelp.com",
     logo: "https://www.medilyfthelp.com/images/MediLyft.png",
     image: "https://www.medilyfthelp.com/images/MediLyft.png",
@@ -13,7 +25,7 @@ export const useStructuredData = () => {
     address: {
       "@type": "PostalAddress",
       streetAddress: "Ekiti State",
-      addressLocality: "Ekiti",
+      addressLocality: "Ado-Ekiti",
       addressCountry: "NG",
     },
     sameAs: [
@@ -70,7 +82,7 @@ export const useStructuredData = () => {
     ],
   };
 
-  const setStructuredData = (schema: Record<string, any>) => {
+  const setStructuredData = (schema: JsonLdObject) => {
     useHead({
       script: [
         {
